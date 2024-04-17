@@ -18,10 +18,10 @@ public class Quiz {
     public static void main(String[] args) {
         // Store quiz questions
         List<QuizQuestion> quizQuestions = new ArrayList<>();
-        quizQuestions.add(new QuizQuestion("What is the capital of France?",
-                Arrays.asList("A. London", "B. Paris", "C. Rome", "D. Berlin"), 'B'));
-        quizQuestions.add(new QuizQuestion("What is the chemical symbol for water?",
-                Arrays.asList("A. Wa", "B. Hy", "C. W", "D. H2O"), 'D'));
+        quizQuestions.add(new QuizQuestion("What is the capital of Germany?",
+                Arrays.asList("A. London", "B. Paris", "C. Rome", "D. Berlin"), 'D'));
+        quizQuestions.add(new QuizQuestion("How many states are in the US?",
+                Arrays.asList("A. 48", "B. 49", "C. 50", "D. 52"), 'C'));
 
         // Set time limit for each question in seconds
         int timeLimit = 30;
